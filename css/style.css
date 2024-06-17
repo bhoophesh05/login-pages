@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: rgb(148, 82, 209);
+}
+.box{
+    
+    border: 1px solid rgb(148, 82, 209);
+     width:320px; 
+     background-color: white;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     padding: 30px;
+     display: grid;
+    position: relative;
+    left: 50%;
+    top: 100px;
+
+}
+
+
+.title{
+    color:black;
+    font-size: 30px;
+    display : flex;
+    justify-content: center;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.title2 a{
+     text-decoration: none;
+     text-indent: 8px;
+     color: rgb(15, 172, 172);
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid ;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 20px 0px 20px;
+}
+ 
+input:focus{
+    background-color: #cbe0de;
+}
+.box .chbox{
+    display: inline;
+    font-size: 18px;
+}
+.button{
+    text-align: center;
+    
+}
+
+
+button {
+    text-align: center;
+    background-color: rgb(32, 136, 206);
+    
+    color: white;
+    margin-top:20px ;
+    border-color: white;
+    padding: 10px 30%;
+}
+
+.box2{
+    background-color: rgb(9, 9, 43);
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+     padding: 30px;
+     position: relative;
+     left:295px;
+     bottom: 280px;
+
+}
+.facebook p{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.facebook{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.twitter{
+    font-size: 15px;
+    text-align: center;
+}
+ 
+.google{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.facebook a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(88, 88, 231);
+    padding: 10px 10%;
+    margin:30px auto 1px ;
+    display: flex;
+    justify-content: center;
+}
+.twitter a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(88, 210, 231);
+    padding: 10px 10%;
+    margin: 10px auto 1px;
+    display: flex;
+    justify-content: center;
+}
+.google a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(207, 51, 12);
+    padding: 10px 10%;
+    margin: 10px auto 1px;
+    display: flex;
+    justify-content: center;
+}
+

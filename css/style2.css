@@ -1,0 +1,73 @@
+body{
+    background-image: url("/media/background.jpg");
+    background-color: rgb(253, 117, 140);
+   background-size: cover;
+   background-position: center;
+
+}
+.login{
+    width: 300px;
+    margin: 200px auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding: 10px 20px 30px;
+}
+
+.t1 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 10px;
+   
+}
+.t2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 0px;
+}
+.t1:hover a{
+    color: blueviolet;
+
+}
+.t2:hover a{
+    color: blueviolet;
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid ;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 10px 0px 20px;
+}
+.login .chbox{
+    
+    font-size: 20px;
+}
+.button{
+    text-align: center;
+    font-size: 30;
+}
+button {
+    text-align: center;
+    font-size: large;
+    background-color: purple;
+    color: white;
+    margin-top:25px ;
+    border-color: purple;
+    border-radius: 20px;
+    padding: 10px 30%;
+}
+.forgotp{
+     text-decoration: none;
+     text-align: center;
+     padding: 12px auto;
+     margin-top: 8px;
+     font-size: 18px;
+}
